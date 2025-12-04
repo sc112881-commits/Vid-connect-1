@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VidConnect - Seamless Video Calls</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; color: #333; }
+        header { background-color: #007bff; color: white; padding: 20px; text-align: center; }
+        .hero { background-image: url('https://example.com/video-call-bg.jpg'); background-size: cover; padding: 100px 20px; text-align: center; color: white; }
+        .hero h1 { font-size: 3em; margin: 0; }
+        .hero p { font-size: 1.5em; }
+        .features { padding: 50px 20px; background-color: #f8f9fa; }
+        .features h2 { text-align: center; }
+        .feature-grid { display: flex; flex-wrap: wrap; justify-content: space-around; }
+        .feature { width: 30%; margin: 20px; text-align: center; }
+        .testimonials { padding: 50px 20px; }
+        .testimonial { margin: 20px; padding: 20px; border: 1px solid #ddd; border-radius: 5px; }
+        .cta { background-color: #007bff; color: white; padding: 50px 20px; text-align: center; }
+        .cta button { background-color: #28a745; color: white; padding: 15px 30px; border: none; font-size: 1.2em; cursor: pointer; }
+        footer { background-color: #333; color: white; text-align: center; padding: 20px; }
+        @media (max-width: 768px) { .feature { width: 100%; } }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>VidConnect</h1>
+        <nav>
+            <a href="#features">Features</a> | <a href="#testimonials">Testimonials</a> | <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    
+    <section class="hero">
+        <h1>Connect Face-to-Face, Anytime</h1>
+        <p>Experience crystal-clear video calls with VidConnect – free, secure, and easy to use.</p>
+        <button onclick="alert('Start your free call!')">Start a Call</button>
+    </section>
+    
+    <section id="features" class="features">
+        <h2>Why Choose VidConnect?</h2>
+        <div class="feature-grid">
+            <div class="feature">
+                <h3>HD Video Quality</h3>
+                <p>Enjoy high-definition video and audio for lifelike conversations.</p>
+            </div>
+            <div class="feature">
+                <h3>Screen Sharing</h3>
+                <p>Share your screen effortlessly for presentations or collaborations.</p>
+            </div>
+            <div class="feature">
+                <h3>Secure & Private</h3>
+                <p>End-to-end encryption ensures your calls stay private.</p>
+            </div>
+        </div>
+    </section>
+    
+    <section id="testimonials" class="testimonials">
+        <h2>What Our Users Say</h2>
+        <div class="testimonial">
+            <p>"VidConnect makes remote work feel like we're in the same room. Amazing quality!"</p>
+            <cite>- Sarah K., Remote Worker</cite>
+        </div>
+        <div class="testimonial">
+            <p>"Easy to use and reliable. Perfect for family video calls."</p>
+            <cite>- Mike T., Parent</cite>
+        </div>
+    </section>
+    
+    <section class="cta">
+        <h2>Ready to Connect?</h2>
+        <p>Download VidConnect today and start your first call for free.</p>
+        <button>Download Now</button>
+    </section>
+    
+    <footer>
+        <p>&copy; 2023 VidConnect. All rights reserved.</p>
+    </footer>
+</body>
+</html>
